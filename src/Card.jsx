@@ -1,8 +1,6 @@
-
 import images from './assets/pikachu.png'
 
 function Card () {
-
 
     return (
         <div className="card">
