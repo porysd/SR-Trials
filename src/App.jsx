@@ -1,12 +1,15 @@
 
-import Student from './Student.jsx'
+import List from './List.jsx'
 
 function App() {
+
+  const fruits = [{id: 1, name: "apple", calories: 95}, 
+                  {id: 2, name: "orange", calories: 100}, 
+                  {id: 3, name: "banana", calories: 105}, 
+                  {id: 4, name: "grapes", calories: 45}];
     return (
       <>
-        <Student name="Pot" age={21} isStudent={true}/>
-        <Student name="Shaina" age={20} isStudent={true}/>
-        <Student/>
+        <List items={fruits} category="Fruits"/>
       </>
 
     );
