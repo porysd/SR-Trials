@@ -77,3 +77,36 @@
     border-radius: 5px;
     margin: 0px;
 }
+
+/* useState hook */
+
+.counter {
+    text-align: center;
+    font-family: Poppins;
+
+}
+
+.count-display{
+    font-size: 10em;
+    font-weight: bolder;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+.counterBtn {
+    font-family: Poppins;
+    font-size: 1.5em;
+    width: 150px;
+    height: 50px;
+    font-weight: bolder;
+    margin: 10px;
+    background-color: hsl(0, 0%, 24%);
+    color:white;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.counterBtn:hover{
+    background-color: hsl(0, 0%, 50%);
+}
